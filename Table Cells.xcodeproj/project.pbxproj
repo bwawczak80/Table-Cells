@@ -13,6 +13,8 @@
 		6B32A4492230624E0066AD00 /* Table_Cells.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B32A4472230624E0066AD00 /* Table_Cells.xcdatamodeld */; };
 		6B32A44B2230624F0066AD00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B32A44A2230624F0066AD00 /* Assets.xcassets */; };
 		6B32A44E2230624F0066AD00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B32A44C2230624F0066AD00 /* LaunchScreen.storyboard */; };
+		6B32A45A2230857E0066AD00 /* NameAndColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B32A4592230857E0066AD00 /* NameAndColorCell.swift */; };
+		6B32A45C2230AED10066AD00 /* NameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B32A45B2230AED10066AD00 /* NameAndColorCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6B32A44A2230624F0066AD00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B32A44D2230624F0066AD00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B32A44F2230624F0066AD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B32A4592230857E0066AD00 /* NameAndColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NameAndColorCell.swift; path = ../NameAndColorCell.swift; sourceTree = "<group>"; };
+		6B32A45B2230AED10066AD00 /* NameAndColorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameAndColorCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		6B32A43F2230624E0066AD00 /* Table Cells */ = {
 			isa = PBXGroup;
 			children = (
+				6B32A4592230857E0066AD00 /* NameAndColorCell.swift */,
 				6B32A4402230624E0066AD00 /* AppDelegate.swift */,
 				6B32A4422230624E0066AD00 /* ViewController.swift */,
 				6B32A4442230624E0066AD00 /* Main.storyboard */,
@@ -63,6 +68,7 @@
 				6B32A44C2230624F0066AD00 /* LaunchScreen.storyboard */,
 				6B32A44F2230624F0066AD00 /* Info.plist */,
 				6B32A4472230624E0066AD00 /* Table_Cells.xcdatamodeld */,
+				6B32A45B2230AED10066AD00 /* NameAndColorCell.xib */,
 			);
 			path = "Table Cells";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B32A45C2230AED10066AD00 /* NameAndColorCell.xib in Resources */,
 				6B32A44E2230624F0066AD00 /* LaunchScreen.storyboard in Resources */,
 				6B32A44B2230624F0066AD00 /* Assets.xcassets in Resources */,
 				6B32A4462230624E0066AD00 /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B32A45A2230857E0066AD00 /* NameAndColorCell.swift in Sources */,
 				6B32A4492230624E0066AD00 /* Table_Cells.xcdatamodeld in Sources */,
 				6B32A4432230624E0066AD00 /* ViewController.swift in Sources */,
 				6B32A4412230624E0066AD00 /* AppDelegate.swift in Sources */,
